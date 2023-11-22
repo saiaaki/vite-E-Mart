@@ -1,0 +1,110 @@
+body{
+    background-color: white;
+}
+.navsection{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(123, 161, 222);
+    color: white; 
+ }
+/* .search{
+    padding: 22px;
+
+}
+.search input{
+    padding: 2px;
+    padding-right:40px
+    
+} */
+
+.user{
+    text-size-adjust: 10px;
+    padding: 22px;
+    
+}
+.cart-items{
+    padding: 27px;
+}
+ .prosection{
+    display: flex;
+    background-color: white;
+ }
+.imgbox{
+    width: 80%;
+    padding-left: 20px;
+}
+.proimage{
+    width: 80%;
+}
+.proTitle{
+    margin: 10px;
+}
+.subMenu ul li{
+    list-style: none;
+    margin: 48px;
+    margin-top: 10px;
+}
+.subMenu{
+    background-color: rgb(237, 231, 231);
+    color: rgb(1, 1, 1);
+    height: 70px;
+}
+.subMenu ul{
+    display: inline-flex;
+}
+.pageImg{
+    width: 250px;
+    height: 250px;
+}
+.pageSection{
+     
+    display:grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 10px;
+}
+
+.pageImg img{
+    width: 100%;
+}
+ 
+
+.ind-page{
+    display: flex;
+}
+.ind-image img{
+    width: 250px;
+}
+
+.ind-details{
+    padding: 20px;
+}
+.footer{ 
+    height: 70px;
+    background-color: rgb(123, 161, 222);
+    color: white; 
+}
+
+.cart{
+    color: white;
+}
+.cart span{
+    color: black;
+}
+.pageImg1 img{
+     height: 150px;
+}
+.cart-section{
+    /* display: flex;
+    border: 1px solid black;
+    margin: 2px; */
+    display: flex;
+    border: 1px double gray;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+}
+.cart-details{
+    width: 50%;
+}

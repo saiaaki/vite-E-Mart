@@ -1,0 +1,34 @@
+import React from 'react'
+import { booksData } from '../Stores/data/books'
+import { useParams } from 'react-router-dom'
+import Navbar from '../Stores/Components/Navbar'
+const Booksingle = () => {
+    const {id} = useParams()
+    const product = booksData.find((item)=>item.id === id)
+  return (
+    <>
+    <Navbar/>
+    <div>
+        <div className="ind-page">
+            <div className="ind-image">
+                <img src={product.image} /> 
+            </div>
+           <div className="ind-details">
+                 <div className="ind-model">
+                    <h3>{product.author}</h3>
+                </div>
+                <div className="ind-price">
+                    <h2>{product.price}</h2>
+                </div>
+                <div className="ind-disk">
+                    <p>{product.description}</p>
+                </div>
+                <button>Add to cart</button>
+           </div>
+        </div>
+    </div>
+    </>
+  )
+}
+
+export default Booksingle
